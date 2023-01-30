@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohid</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js "></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="container nav-container">
+          <div class="left-nav">
+            <i class="uil uil-watch-alt"></i>
+            <label class="logo">Mohid</label>
+          </div>
+          <div class="center-nav">
+            <ul class="nav-ul">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#shop" class="nav-link">
+                  <label for="brand">Brands</label>
+                  <select name="brands" id="brand"></select>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#shop" class="nav-link">Recent Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer-section" class="nav-link">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right-nav">
+            <button id="navbar-open">
+              <i class="uil uil-list-ui-alt"></i>
+            </button>
+            <button id="navbar-close">
+              <i class="uil uil-multiply"></i>
+            </button>
+            <div class="switch">
+              <input type="checkbox" />
+            </div>
+            <i class="uil uil-search"></i>
+            <i class="uil uil-user"></i>
+            <i class="uil uil-shopping-cart"></i>
+          </div>
+        </div>
+      </nav>
+      <nav id="navbar-responsive">
+        <ul class="nav-ul">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#shop" class="nav-link">
+              <label class="brands" for="brand">Brands</label>
+              <select name="brands" id="brand"></select>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#shop" class="nav-link">Recent Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer-section" class="nav-link">About</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="home">
+        <div class="container home-container">
+          <div class="home-left">
+            <h1>Discover Most Suitable Watches</h1>
+            <p>
+              Find the best, reliable, and cheap smart watches here. We focus on
+              product quality. Here you can find smart watches of almost all
+              brands. So why you are waiting? Just order now!
+            </p>
+            <div class="home-input">
+              <form action="#">
+                <i class="uil uil-search"></i>
+                <input
+                  required
+                  id="search"
+                  placeholder="Find the best brands"
+                  type="search"
+                  name="search"
+                />
+                <input id="submit" type="submit" value="Search" />
+              </form>
+            </div>
+          </div>
+          <div class="home-right">
+            <img src="images/i-watch-home.svg" alt="page" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="shop">
+        <div class="container">
+          <div class="cards">
+            <div class="card">
+              <div class="watch-img">
+                <img src="images/apple-watch.svg" alt="page" />
+              </div>
+              <div class="card-text">
+                <h3>Apple</h3>
+                <p>
+                  Apple is one of the <br />most famous smart <br />watches
+                  providing <br />company.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="watch-img">
+                <img src="images/xiaomi-watch.svg" alt="page" />
+              </div>
+              <div class="card-text">
+                <h3>Xiaomi</h3>
+                <p>
+                  Xiaomi smart watches <br />are produced by MI <br />company.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="watch-img">
+                <img src="images/fitbit-watch.svg" alt="page" />
+              </div>
+              <div class="card-text">
+                <h3>FitBit</h3>
+                <p>
+                  FitBit smart watches <br />are best for there <br />health and
+                  fitness <br />features.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="shop-watchs">
+            <div class="shop-paragraph">
+              <p>Find your favourite smart watch.</p>
+              <h2>Our Latest Products</h2>
+            </div>
+            <div class="shop-cards">
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-1.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Apple Smart I</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <p><del>$300.00</del></p>
+                    <h6>$255.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-2.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Apple Smart II</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <p><del>$300.00</del></p>
+                    <h6>$255.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-3.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Apple Smart III</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <p><del>$300.00</del></p>
+                    <h6>$255.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-4.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Apple Smart IV</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <p><del>$450.00 </del></p>
+                    <h6>$399.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-5.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Samsung Watch Pro</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <p><del>$300.00</del></p>
+                    <h6>$255.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-watch">
+                  <img src="images/watch-6.svg" alt="page" />
+                </div>
+                <div class="price-watchs">
+                  <h5>Fitbit Max 1</h5>
+                  <div class="star">
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                    <p><i class="uil uil-star"></i></p>
+                  </div>
+                  <div class="star-shop">
+                    <h6 class="h6">$155.00</h6>
+                  </div>
+                </div>
+                <div class="hover">
+                  <button class="btn-1">
+                    <i class="uil uil-shopping-cart"></i>
+                  </button>
+                  <button class="btn-2"><i class="uil uil-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-shop">
+            <button>View More</button>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="contact-container">
+            <p>Here are our some of the best clients.</p>
+            <h2>What People Say About Us</h2>
+          </div>
+
+          <div class="sliderwov middle">
+            <div class="slides">
+              <input type="radio" name="r" id="r1" checked />
+              <input type="radio" name="r" id="r2" />
+              <input type="radio" name="r" id="r3" />
+              <input type="radio" name="r" id="r4" />
+              <div class="slide s1">
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hamza.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hamza Faizi</h4>
+                    <p>
+                      Don’t waste time, just order! This <br />is the best
+                      website to puschase <br />smart watches.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hafiz.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hafiz Huzaifa</h4>
+                    <p>
+                      I’ve been purchasing smart <br />watches of Mohid for a
+                      long time. <br />All the products are good quality.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hamza.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hamza Faizi</h4>
+                    <p>
+                      Don’t waste time, just order! This <br />is the best
+                      website to puschase <br />smart watches.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hafiz.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hafiz Huzaifa</h4>
+                    <p>
+                      I’ve been purchasing smart <br />watches of Mohid for a
+                      long time. <br />All the products are good quality.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hamza.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hamza Faizi</h4>
+                    <p>
+                      Don’t waste time, just order! This <br />is the best
+                      website to puschase <br />smart watches.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hafiz.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hafiz Huzaifa</h4>
+                    <p>
+                      I’ve been purchasing smart <br />watches of Mohid for a
+                      long time. <br />All the products are good quality.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hamza.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hamza Faizi</h4>
+                    <p>
+                      Don’t waste time, just order! This <br />is the best
+                      website to puschase <br />smart watches.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="peopless">
+                  <div class="people-img">
+                    <img src="images/hafiz.svg" alt="page" />
+                  </div>
+                  <div class="people-text">
+                    <h4>Hafiz Huzaifa</h4>
+                    <p>
+                      I’ve been purchasing smart <br />watches of Mohid for a
+                      long time. <br />All the products are good quality.
+                    </p>
+                    <div class="stars-people">
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                      <p><i class="uil uil-star"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="navigation">
+              <label for="r1" class="bar"></label>
+              <label for="r2" class="bar"></label>
+              <label for="r3" class="bar"></label>
+              <label for="r4" class="bar"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer-section">
+        <div class="container">
+          <div class="email-subscribe">
+            <div class="left-footer">
+              <h3>Subscribe To Newsletter</h3>
+              <p>Get free guide about smart watches daily.</p>
+              <form action="#">
+                <input
+                  required
+                  id="email"
+                  placeholder="Enter Email Address"
+                  type="email"
+                  name="email"
+                />
+                <input
+                  id="submit-2"
+                  type="submit"
+                  value="Subscribe"
+                  name="submit"
+                />
+              </form>
+            </div>
+            <div class="right-footer">
+              <img src="images/watch-1.svg" alt="page" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="last-section">
+        <div class="container">
+          <div class="last-text">
+            <p>Copyright @ 2022 | Mohid</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <a href="#home">
+      <i id="backtop" class="uil uil-angle-up"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

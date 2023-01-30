@@ -1,0 +1,98 @@
+.dark header {
+  background-color: #ffffff;
+}
+
+.dark nav {
+  background-color: #ffffff;
+}
+
+.dark .left-nav > i,
+.dark .left-nav > label.logo {
+  color: #8b8e99;
+}
+
+.dark .right-nav > i {
+  color: #8b8e99;
+}
+
+.dark #navbar-open > i {
+  color: #8b8e99;
+}
+
+.dark #navbar-close > i {
+  color: #8b8e99;
+}
+
+.dark #navbar-responsive {
+  background-color: #8b8e99;
+}
+
+.dark .home-left > h1 {
+  color: #8b8e99;
+}
+
+.dark .home-input form > #search {
+  border: 1px solid #8b8e99;
+}
+
+.dark .home-input form > i {
+  color: #8b8e99;
+}
+
+.dark .home-input form > #submit {
+  background-color: #8b8e99;
+}
+
+.dark .card-text > h3 {
+  color: #8b8e99;
+}
+
+.dark .shop-paragraph > p,
+.dark .shop-paragraph > h2 {
+  color: #8b8e99;
+}
+
+.dark .price-watchs > h5 {
+  color: #8b8e99;
+}
+
+.dark .price-watchs .star p > i {
+  color: #8b8e99;
+}
+
+.dark .star-shop > h6 {
+  color: #8b8e99;
+}
+
+.dark .button-shop > button {
+  background-color: #8b8e99;
+}
+
+.dark .contact-container > p,
+.dark .contact-container > h2 {
+  color: #8b8e99;
+}
+
+.dark .people-text > h4 {
+  color: #8b8e99;
+}
+
+.dark .stars-people p > i {
+  color: #8b8e99;
+}
+
+.dark .left-footer > h3 {
+  color: #8b8e99;
+}
+
+.dark .left-footer form > #submit-2 {
+  background-color: #8b8e99;
+}
+
+.dark #last-section {
+  background-color: #ffffff;
+}
+
+.dark .last-text > p {
+  color: #8b8e99;
+}
