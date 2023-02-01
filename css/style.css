@@ -392,9 +392,9 @@ label.logo {
 
 .price-watchs > h5 {
   margin-top: 11px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   font-style: normal;
-  /* text-align: center; */
+  text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
@@ -523,7 +523,7 @@ label.logo {
 
 .navigation {
   position: absolute;
-  bottom: 20px;
+  /* bottom: 20px; */
   top: 350px;
   left: 48%;
   transform: translateX(-30%);
@@ -620,7 +620,7 @@ input[name="r"] {
   border-radius: 22px;
 }
 
-.left-footer > form {
+.footer-input > form {
   position: relative;
 }
 
@@ -658,7 +658,7 @@ input[name="r"] {
   cursor: pointer;
 }
 
-#submit-2 {
+.footer-input form #submit-2 {
   position: absolute;
   width: 131px;
   height: 45px;
@@ -748,6 +748,7 @@ input[name="r"] {
     grid-template-columns: 1fr;
   }
   .home-left {
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -755,6 +756,12 @@ input[name="r"] {
   .home-left > h1,
   .home-left > p {
     text-align: center;
+  }
+  .home-right {
+    width: 100%;
+  }
+  .home-right > img {
+    width: 100%;
   }
   .home-input {
     display: grid;
@@ -794,7 +801,7 @@ input[name="r"] {
   .sliderwov {
     width: 524px;
     height: 830px;
-    margin-top: 300px;
+    margin-top: 250px;
   }
   .slide {
     display: grid;
@@ -807,6 +814,9 @@ input[name="r"] {
   .navigation {
     position: absolute;
     top: 600px;
+  }
+  .email-subscribe {
+    margin-top: 250px;
   }
 }
 
@@ -900,7 +910,6 @@ input[name="r"] {
     display: grid;
     grid-template-columns: auto;
   }
-
   .peopless {
     position: relative;
     width: 480px;
@@ -908,6 +917,34 @@ input[name="r"] {
   .navigation {
     position: absolute;
     top: 600px;
+  }
+  .email-subscribe {
+    width: 100%;
+  }
+  .left-footer {
+    width: 100%;
+  }
+  .left-footer > h3 {
+    font-size: 22px;
+  }
+  .footer-input #email {
+    width: 300px;
+    font-size: 14px;
+  }
+  .footer-input form #submit-2 {
+    position: absolute;
+    font-size: 14px;
+    width: 90px;
+    left: 200px;
+  }
+  .left-footer > p {
+    font-size: 12px;
+  }
+  .right-footer {
+    width: 100%;
+  }
+  .right-footer > img {
+    width: 100%;
   }
 }
 
@@ -929,33 +966,29 @@ input[name="r"] {
     position: absolute;
     top: 600px;
   }
-  .left-footer {
-    display: grid;
-    justify-content: center;
-  }
-  .left-footer #email {
-    width: 412px;
-    margin: 0px 10px 0px 10px;
-  }
-  .left-footer #submit-2 {
-    width: 106px;
-  }
 }
 
 @media (max-width: 520px) {
+  .sliderwov {
+    width: 430px;
+    height: 830px;
+  }
+  .peopless {
+    position: relative;
+    width: 430px;
+  }
   .home-left > h1 {
     font-size: 56px;
     font-weight: 700;
   }
-  .home-input #search {
-    width: 412px;
-  }
-  .left-footer > h3 {
-    font-size: 30px;
-  }
 }
 
 @media (max-width: 510px) {
+  .home-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   .home-left > h1 {
     font-size: 45px;
     font-weight: 700;
@@ -965,5 +998,76 @@ input[name="r"] {
   }
   .home-input #search {
     width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderwov {
+    width: 420px;
+    height: 830px;
+  }
+  .peopless {
+    position: relative;
+    width: 420px;
+  }
+  .people-text > h4 {
+    font-size: 20px;
+  }
+  .people-text > p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sliderwov {
+    width: 400px;
+    height: 830px;
+  }
+  .peopless {
+    position: relative;
+    width: 400px;
+  }
+  .home-left > h1 {
+    font-size: 45px;
+  }
+  .home-left > p {
+    font-size: 15px;
+  }
+  .home-input form > #search {
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .sliderwov {
+    width: 380px;
+    height: 830px;
+  }
+  .peopless {
+    position: relative;
+    width: 380px;
+  }
+  .people-text > h4 {
+    font-size: 17px;
+  }
+  .people-text > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sliderwov {
+    width: 360px;
+    height: 830px;
+  }
+  .peopless {
+    position: relative;
+    width: 360px;
+  }
+  .people-text > h4 {
+    font-size: 14px;
+  }
+  .people-text > p {
+    font-size: 10px;
   }
 }
